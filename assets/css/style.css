@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 500vh;
+    overflow-x: hidden;
+    user-select: none;
+    font-family: sans-serif;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffff;
+}
+
+.content {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.rows1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rows1 p {
+    margin-top: -20pt;
+}
+
+.but {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but:hover {
+    color: grey;
+}
+
+.but:active {
+    color: gray;
+}
+
+.versions {
+    background-color: white;
+    color: black;
+    box-shadow: 3px -2px 59px 19px rgba(65,65,65,0.75);
+    padding: 10pt;
+    width: 80%;
+    position: fixed;
+    top: 40%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.holder {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+.versions > * {
+    margin: 10pt;
+}
+
+.holder img {
+    width: 50pt;
+    padding: 5pt;
+    border-right: 2px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.holder a {
+    margin-left: 10pt;
+    color: black;
+}
